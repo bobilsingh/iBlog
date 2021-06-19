@@ -1,0 +1,37 @@
+.carousel-inner > .carousel-item> img  {
+    width: 980px;
+    height: 400px;
+    background-position: fix;
+    background-color: aqua;
+  }
+
+  #aboutimg{
+    width: 300px;
+    height: 300px;
+    
+  }
+
+  html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 40px; /* Margin bottom by footer height */
+}
+
+.footer {
+       position: absolute;
+       bottom: 0; 
+       width: 100%;
+       height: 40px; /* Set the fixed height of the footer here */
+       line-height: 0.5; /* aligns type in footer-container */
+}
+
+h2{
+  color: blue;
+}
+.carousel-item>.carousel-caption> p{
+  color: rgb(255, 94, 0);
+  font-size: 20px;
+}
